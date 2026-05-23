@@ -21,6 +21,10 @@ export default function Navbar() {
         <Link href="/contact">
           Contact
         </Link>
+	
+	<Link href="/register">
+	  Register
+	</Link>
 
       </div>
 
