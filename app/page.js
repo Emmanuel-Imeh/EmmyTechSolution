@@ -19,7 +19,7 @@ export default function Home() {
 
           <Link
             href="/training"
-            className="bg-blue-600 text-white px-6 py-3 rounded"
+            className="text-cyan-400 text-white px-6 py-3 rounded"
           >
             Start Learning
           </Link>
@@ -36,7 +36,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT SECTION */}
-      <section className="p-10 bg-gray-100">
+      <section className="p-10 bg-gray-900">
 
         <h2 className="text-3xl font-bold">
           About EmmyTech
