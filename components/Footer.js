@@ -1,10 +1,15 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white p-4 mt-10 text-center border-t border-gray-700">
+    <footer className="border-t border-white/10 mt-20">
 
-      <p>
-        © 2026 EmmyTech Solution
-      </p>
+      <div className="max-w-7xl mx-auto px-6 py-8 text-center text-gray-400">
+
+        <p>
+          © {new Date().getFullYear()} EmmyTech Solution.
+          All rights reserved.
+        </p>
+
+      </div>
 
     </footer>
   );

@@ -1,54 +1,50 @@
-import Link from "next/link";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <main>
+    <>
+      <Hero />
 
-      {/* HERO SECTION */}
-      <section className="p-10 text-center">
+      <section className="max-w-6xl mx-auto px-6 py-20">
 
-        <h1 className="text-5xl font-bold text-blue-600">
-          EmmyTech Solution
-        </h1>
+        <div className="grid md:grid-cols-3 gap-8">
 
-        <p className="mt-6 text-xl">
-          Learn digital skills and build real tech solutions.
-        </p>
+          <div className="bg-zinc-900 p-6 rounded-xl">
+            <h3 className="text-xl font-bold">
+              Computer Training
+            </h3>
 
-        <div className="mt-8 flex justify-center gap-4">
+            <p className="mt-3 text-gray-400">
+              Learn digital skills from beginner
+              to professional level.
+            </p>
+          </div>
 
-          <Link
-            href="/training"
-            className="text-cyan-400 text-white px-6 py-3 rounded"
-          >
-            Start Learning
-          </Link>
+          <div className="bg-zinc-900 p-6 rounded-xl">
+            <h3 className="text-xl font-bold">
+              Cloud Engineering
+            </h3>
 
-          <Link
-            href="/services"
-            className="border border-black px-6 py-3 rounded"
-          >
-            Our Services
-          </Link>
+            <p className="mt-3 text-gray-400">
+              AWS, Docker, Kubernetes and
+              Infrastructure as Code.
+            </p>
+          </div>
+
+          <div className="bg-zinc-900 p-6 rounded-xl">
+            <h3 className="text-xl font-bold">
+              Business Solutions
+            </h3>
+
+            <p className="mt-3 text-gray-400">
+              Modern technology services for
+              growing businesses.
+            </p>
+          </div>
 
         </div>
 
       </section>
-
-      {/* ABOUT SECTION */}
-      <section className="p-10 bg-gray-900">
-
-        <h2 className="text-3xl font-bold">
-          About EmmyTech
-        </h2>
-
-        <p className="mt-4 text-lg">
-          EmmyTech Solution helps students and businesses
-          gain digital skills and modern technology solutions.
-        </p>
-
-      </section>
-
-    </main>
+    </>
   );
 }
