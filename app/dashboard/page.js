@@ -8,15 +8,7 @@ export default function Dashboard() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-        <div className="bbg-zinc-900
-p-6
-rounded-xl
-border
-border-zinc-800
-hover:border-cyan-400
-hover:-translate-y-2
-transition
-duration-300">
+        <div className="bbg-zinc-900 p-6 rounded-xl border border-zinc-800 hover:border-cyan-400 hover:-translate-y-2 transition duration-300">
           <h2 className="text-gray-400">
             Total Students
           </h2>
@@ -26,15 +18,7 @@ duration-300">
           </p>
         </div>
 
-        <div className="bbg-zinc-900
-p-6
-rounded-xl
-border
-border-zinc-800
-hover:border-cyan-400
-hover:-translate-y-2
-transition
-duration-300">
+        <div className="bbg-zinc-900 p-6 rounded-xl border border-zinc-800 hover:border-cyan-400 hover:-translate-y-2 transition duration-300">
           <h2 className="text-gray-400">
             Courses
           </h2>
@@ -44,15 +28,7 @@ duration-300">
           </p>
         </div>
 
-        <div className="bbg-zinc-900
-p-6
-rounded-xl
-border
-border-zinc-800
-hover:border-cyan-400
-hover:-translate-y-2
-transition
-duration-300">
+        <div className="bbg-zinc-900 p-6 rounded-xl border border-zinc-800 hover:border-cyan-400 hover:-translate-y-2 transition duration-300">
           <h2 className="text-gray-400">
             Registrations
           </h2>

@@ -14,16 +14,7 @@ export default function CTA() {
 
       <Link
         href="/register"
-        className="inline-block mt-8 bg-cyan-500
-hover:bg-cyan-600
-px-8
-py-4
-rounded-lg
-font-semibold
-transition
-duration-300
-shadow-lg
-shadow-cyan-500/20 font-medium"
+        className="inline-block mt-8 bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-lg font-semibold transition duration-300 shadow-lg shadow-cyan-500/20 font-medium"
       >
         Register Now
       </Link>
