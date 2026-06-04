@@ -1,6 +1,6 @@
 export default function Register() {
   return (
-    <main className="p-10 max-w-xl mx-auto">
+    <main className="px-4 py-10 max-w-xl mx-auto">
 
       <h1 className="text-4xl font-bold">
         Student Registration
@@ -12,25 +12,25 @@ export default function Register() {
         <input
           type="text"
           placeholder="Full Name"
-          className="border p-3 rounded"
+          className="w-full border p-3 rounded"
         />
 
         {/* EMAIL */}
         <input
           type="email"
           placeholder="Email Address"
-          className="border p-3 rounded"
+          className="w-full border p-3 rounded"
         />
 
         {/* PHONE */}
         <input
           type="tel"
           placeholder="Phone Number"
-          className="border p-3 rounded"
+          className="w-full border p-3 rounded"
         />
 
         {/* COURSE */}
-        <select className="border p-3 rounded">
+        <select className="w-full border p-3 rounded">
 
           <option>
             Select Course
